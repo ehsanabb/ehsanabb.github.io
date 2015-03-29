@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<base href="http://users.cecs.anu.edu.au/~u4940058/"><div
+							style="margin:12px;padding:8px;border:1px solid
+							       #000000;background:#FFFFFF;font:14px
+							       sans,sans-serif;color:#000000;font-weight:normal;text-align:left; border:0"/>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+      <meta name ="keywords" CONTENT="machine learning, preference elicitation, social network, recommender system, Decision making, Bayesian inference, Graphical model, approximate inference, pattern recognition, Ehsan, M. Ehsan Abbasnejad, Ehsan Abbasnejad, M. Ehsan Abbasnejad, Gaussian Processes"/>
+      <title>Car Preference Dataset</title>
+      <style type="text/css">
+	<!--
+	    .STYLE1 {font-family: Sans}
+	    body {
+	    background-color: #FFFFFF;
+	    margin-left: 135px;
+	    margin-top: 30px;
+	    margin-right: 135px;
+	    margin-bottom: 30px;
+	    line-height: 20px;	
+	    font-size: 15px;
+	    
+	    }
+	    body,td,th {
+	    color: #000000;
+	    line-height: 20px;
+	    font-size: 15px;
+	    }
+	    a:link {
+	    color: rgb(100, 100, 240);
+	    }
+	    a:visited {
+	    color: rgb(74, 149, 224);
+	    }
+	    a:hover {
+	    color: red;
+	    }
+	    }
+	    .STYLE5 {color: #0000FF; font-family: Sans; }
+	    .STYLE6 {color: #0000FF}
+	    .STYLE9 {color: #0000C0}
+	    .STYLE10 {
+	    color: black;
+	    font-size: 18px;
+	    font-weight: bold;
+	    font-family: Arial, Helvetica, Sans;
+	    }
+	    .STYLE11 {color: black; font-family: Sans; }
+	    .STYLE12 {color: red; font-family: Sans; }
+	  -->
+	a { text-decoration:none}
+      </style>
+      <script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-30708903-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+      </script>
+
+    </head>
+
+    <body>
+      <!-- <p class="STYLE1 STYLE10">M. Ehsan Abbasnejad</p>  width="107" height="147" -->
+
+      <p align="center">
+	<table border="0" cellpadding="10">
+	  <tr><td>
+	      <p align="center">
+		<h1>Car Preference Dataset</h1>
+		<hr />
+
+	      <p>
+		We set up an experiment in Amazon Mechanical Turk to collect real pair-wise preferences over users. 
+		In this experiment users are presented with a choice to prefer a car over another based on their attributes. We have run two experiments with 10 and 20 cars respectively. 
+	      </p>
+	      <p>
+		The preference questionnaire contains 5 control questions that were randomly selected from the preferences with reversed order, as such these control questions can be easily identified in the data.  We include all data collected.  The reader may choose to exclude some users who got few control questions right as this is an indicator that they may have been answering randomly.
+	      </p>
+
+	      <p>
+		<h3>Data format:</h3>
+		The data collected from two experiments is formatted in three csv files respectively representing user attributes, item attributes, and preferences of users over items. In the preference sets the first item (indicated by its ID) is preferred to the second one.
+
+		<!-- For each user and item a single row is dedicated in their respective files that contain the attribute value as described below.  
+		Preference set contains a list of three valued tuples corresponding to the user, item1, item2 (item1 is always preferred to item2).  Users and items can be found by their index in the respective file. --> 
+		<br />
+		<br />
+		In addition, we provide the original AMT format for those who prefer to clean the data themselves.
+	      </p>
+
+	      <h3>User attributes:</h3>
+	      We restrict our experiments to US users only to collect a more unified preferences. 
+	      <ul>
+		<li><strong>Education:</strong> High school (1), Bachelors (2), PhD (3)</li>    
+		<li><strong>Age:</strong> Below 25 (1), Between 25-30 (2), Between 30-35 (3), Above 40 (4)</li>
+		<li><strong>Gender:</strong> Male (1), Female (2)</li>
+		<li><strong>Region:</strong> South (1), West (2), North East (3), Mid West (4)</li>
+		<li><strong>Unanswered:</strong>(0)</li>
+	      </ul>
+	    <!--  Note that any unanswered user attribute is set to zero in the dataset. -->
+
+	      <h3>First Experiment</h3>
+	      In this experiment, we used 10 items and generated all the possible 45 preferences accordingly. We performed this experiment in two shots collecting the data from 40 and 20 users separately.
+	      <br />
+	      <strong>Car Attributes</strong>
+	      <ul>
+		<li><strong>Body type:</strong> Sedan (1), SUV (2)</li>
+		<li><strong>Transmission:</strong> Manual (1), Automatic (2)</li>
+		<li><strong>Engine capacity:</strong> 2.5L, 3.5L, 4.5L, 5.5L, 6.2L</li>    
+		<li><strong>Fuel consumed:</strong> Hybrid (1), Non-Hybrid (2)</li>
+	      </ul>
+	      Original AMT Format: <a href="data/exp1-prefs.zip">Download</a> <br />
+	      Formatted data:
+	      <a href="data/users1.csv">[User set]</a>
+	      <a href="data/items1.csv">[Item set]</a>
+	      <a href="data/prefs1.csv">[Preference set]</a>
+
+	      <h3>Second Experiment</h3>
+	      In the second experiment, we used 20 items and randomly generated 5 subsets of 38 preferences for each user. In the contrary to the previous case, from each user only a sparse preference set was then collected.
+
+	      <br /> 
+	      <strong>Car Attributes</strong>
+	      <ul>
+		<li><strong>Body type:</strong> Sedan (1), SUV(2), Hatchback(3)</li>
+		<li><strong>Transmission:</strong> Manual (1), Automatic (2)</li>
+		<li><strong>Engine capacity:</strong> 2.5L, 3.5L, 4.5L, 5.5L, 6.2L</li>
+		<li><strong>Fuel consumed:</strong> Hybrid (1), Non-Hybrid (2)</li>
+		<li><strong>Engine/Transmission layout:</strong> All-wheel-drive (AWD) (1), Forward-wheel-drive (FWD) (2)</li>
+	      </ul>
+	      Original AMT Format: <a href="data/exp2-prefs.zip">Download</a> <br />
+	      Formatted data:
+	      <a href="data/users2.csv">[User set]</a>
+	      <a href="data/items2.csv">[Item set]</a>
+	      <a href="data/prefs2.csv">[Preference set]</a>
+	      </p>
+	      
+	      <h4>Data Cleaning:</h4>
+	      <ul>
+		<li>The control questions are removed in these datasets</li>
+		<li>Users who had more than or equal to 3 control questions wrong are not included due to their  inconsistency</li>
+		<li>Some users may have left questions unanswered that led to fewer number of preferences than expected in each experiment (less that 45 in the first and less that 38 in the second)
+	      </ul>
+	      
+There is a simple Matlab (octave) function is provided that can remove the control variables and users with more than an acceptable number of mistakes (that is provided to the function as an argument). Please make sure to remove the user's header information in the files before calling the function.
+	      <hr />
+
+	      <h4>You are welcome to use the data in this page for research, however please acknowledge its use with a citation: 
+	      </h4>
+	      <p align="justify">Learning Community-based Preferences via Dirichlet Process Mixtures of Gaussian Processes</span>, 
+	      E. Abbasnejad, S. Sanner, E. V. Bonilla, P. Poupart, 
+	      <em>In Proceedings of the 23rd International Joint Conference on Artificial Intelligence (IJCAI), 2013. Beijing, China.</em></p>
+
+	    <p style="font-family:courier;font-size:14px;" >
+	      @INPROCEEDINGS{Abbasnejad2013, <br />
+	      &emsp;&emsp; author = {E. Abbasnejad, S. Sanner, E. V. Bonilla, P. Poupart},  <br />
+	      &emsp;&emsp; title = {Learning Community-based Preferences via Dirichlet Process Mixtures
+	      of Gaussian Processes},  <br />
+	      &emsp;&emsp;   booktitle = {In Proceedings of the 23rd International Joint Conference on Artificial
+	      Intelligence (IJCAI)},  <br />
+	      &emsp;&emsp;   year = {2013}  <br />
+	      }
+	    </p>
+
+	    <p>
+	      For inquiries or bug report please contact <a href="./index.html">Ehsan Abbasnejad</a>: ehsan <em>(dot)</em> abbasnejad <em>(at)</em> nicta <em>(dot)</em> com <em>(dot)</em> au.
+	    </p>
+	  </body>
+	</html> 

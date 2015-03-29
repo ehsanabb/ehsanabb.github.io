@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<base href="http://users.cecs.anu.edu.au/~u4940058/"><div
+  style="margin:12px;padding:8px;border:1px solid
+  #000000;background:#FFFFFF;font:14px
+  sans,sans-serif;color:#000000;font-weight:normal;text-align:left; border:0"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name ="keywords" CONTENT="machine learning, preference elicitation, social network, recommender system, Decision making, Bayesian inference, Graphical model, approximate inference, pattern recognition, Ehsan, M. Ehsan Abbasnejad, Ehsan Abbasnejad, M. Ehsan Abbasnejad, Gaussian Processes"/>
+<title>M. Ehsan Abbasnejad</title>
+<style type="text/css">
+<!--
+.STYLE1 {font-family: Sans}
+body {
+	background-color: #FFFFFF;
+	margin-left: 135px;
+	margin-top: 30px;
+	margin-right: 135px;
+	margin-bottom: 30px;
+	line-height: 20px;	
+	font-size: 15px;
+	
+}
+body,td,th {
+	color: #000000;
+	line-height: 20px;
+    font-size: 15px;
+}
+a:link {
+	color: rgb(100, 100, 240);
+}
+a:visited {
+	color: rgb(74, 149, 224);
+}
+a:hover {
+	color: red;
+}
+}
+.STYLE5 {color: #0000FF; font-family: Sans; }
+.STYLE6 {color: #0000FF}
+.STYLE9 {color: #0000C0}
+.STYLE10 {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Sans;
+}
+.STYLE11 {color: black; font-family: Sans; }
+.STYLE12 {color: red; font-family: Sans; }
+-->
+a { text-decoration:none}
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30708903-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+<!-- <p class="STYLE1 STYLE10">M. Ehsan Abbasnejad</p>  width="107" height="147" -->
+
+<p align="center">
+<table border="0" cellpadding="10">
+<tr><td>
+<p align="center">
+<img src="ehsan.jpg"  
+     alt="M. Ehsan Abbasnejad" />
+
+</p>
+</td><td class="spaced">
+<B>M. Ehsan Abbasnejad</B><br /><br />
+I am a PhD Candidate at the <a href="http://www.anu.edu.au/" target="_blank">Australian National University (ANU)</a> and a Graduate Researcher in the <a href="http://www.nicta.com.au/research/machine_learning" target="_blank">Machine Learning Group</a> at the <a href="http://www.nicta.com.au/" target="_blank">National ICT Australia (NICTA)</a>.
+</td></tr>
+</table>
+</p>
+
+<p class="STYLE1 STYLE9"><strong>Research Interests</strong>: </p>
+<p class="STYLE1 STYLE1 STYLE1 STYLE1 STYLE1 STYLE1 STYLE1 STYLE1"><span class="STYLE1">Machine Learning, Information Retrieval, Graphical Models, Approximate Inference, Non-parametric Bayesian Methods, Recommender Systems, and Decision Theory</span></p>
+
+<p align="justify" class="STYLE1
+STYLE9"><strong>Selected Publications</strong>:</p>
+<ul>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">Learning Community-based Preferences via Dirichlet Process Mixtures of Gaussian Processes</strong></span><br />
+<strong>E. Abbasnejad</strong>, S. Sanner, E. V. Bonilla, P. Poupart, 
+<em>In Proceedings of the 23rd International Joint Conference on Artificial Intelligence (IJCAI), 2013. Beijing, China.</em>
+<a href="" > [link]</a><a href="./CarPreferences.html" target="_blank"> [dataset]</a></p></li>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">Symbolic Variable Elimination for Discrete and Continuous Graphical Models</strong></span><br />
+S. Sanner, <strong>E. Abbasnejad</strong>, 
+<em>In Proceedings of the 26th Conference on Artificial Intelligence (AAAI), 2012. Toronto, Canada.</em>
+<a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/5187/5357" > [link]</a></p></li>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">New Objectives for Social Collaborative Filtering</strong></span><br />J. Noel, S. Sanner, K.-N. Tran, P. Christen, L. Xie, E. Bonilla, <strong>E. Abbasnejad</strong>, N. Della Penna, <em>In Proceedings of the 21st International Conference on the World Wide Web (WWW), 2012. Lyon, France.</em><a href="https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDoQFjAA&url=http%3A%2F%2Fusers.cecs.anu.edu.au%2F~ssanner%2FPapers%2Fwww12.pdf&ei=Q3RvUZrGJqyviQelhoCICg&usg=AFQjCNE7rnleX6kLvy40pDx6ZWXuZjq4rg&sig2=jU7oORDz2vYR9CK6uZBzMg&bvm=bv.45373924,d.aGc" > [link]</a></p></li>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">A Survey of The State of the Art in Learning the Kernels</strong></span><br /><strong>E. Abbasnejad</strong>, Ramachandram D., Mandava R. <em>Journal of Neural Computing and Applications, 2011</em><a href="http://www.springerlink.com/content/1612n3w390416166/" target="_blank"> [link]</a></p></li>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">The Common Solution of the Pair of Fuzzy Matrix Equations</strong></span><br />Amir Sadeghia, Saeid Abbasbandy, <strong>E. Abbasnejad</strong><em>World Applied Science Journal, 2011</em><a href="http://www.idosi.org/wasj/wasj15(2)11/13.pdf" target="_blank"> [link]</a></p></li>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">On Solving Systems of Fuzzy Matrix Equation</strong></span><br />Amir Sadeghia, <strong>E. Abbasnejad</strong>, Ahmad Izani Md. Ismail <em>Far East Journal of Applied Mathematics, 2011</em><a href="http://www.pphmj.com/journals/articles/846.htm" target="_blank"> [link]</a></p></li>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">An Unsupervised Approach to Learn the Kernel Functions: From Global Influence to Local Similarity</strong></span><br /><strong>E. Abbasnejad</strong>, Ramachandram D., Mandava R. <em>Journal of Neural Computing and Applications, 2010</em><a href="http://www.springerlink.com/content/n461557112062157/" target="_blank"> [link]</a></p></li>
+
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">Optimizing Kernel Functions using Transfer Learning from Unlabeled Data</strong></span><br /><strong>E. Abbasnejad</strong>, Ramachandram D., Mandava R. <em>International Conference on Machine Vision, 2009</em><a href="http://dl.acm.org/citation.cfm?id=1728885" target="_blank"> [link]</a></p></li>
+
+</ul>
+
+<p align="justify" class="STYLE1
+STYLE9"><strong>Thesis</strong>:</p>
+<ul>
+<li> <p align="justify" class="STYLE1"><span ><strong class="STYLE6">Learning and Optimization of Kernel Functions from Insufficiently Labeled Examples</strong></span><br /><strong>E. Abbasnejad</strong>, <em>MSc Thesis, Universiti Sains Malaysia</em></p></li>
+<!-- <a href="msc_thesis.pdf" target="_blank"> [pdf]</a> -->
+</ul>
+
+
+<p align="justify" class="STYLE1 STYLE9"><strong>Panel Members</strong>:</p>
+<ul>
+   <li><span class="STYLE1" align="justify"><a href="http://users.rsise.anu.edu.au/~ssanner/" target="_blank">Scott Sanner</a><span class="STYLE6">, Senior Researcher, NICTA</span>(Primary Supervisor)</span></li>
+	<li class="STYLE6"><span class="STYLE1" align="justify"> <a href="http://users.cecs.anu.edu.au/~u4882938/" target="_blank">Edwin Bonilla</a>, Researcher,  NICTA</span></li>
+   <li><span class="STYLE1" align="justify"><a href="http://nicta.com.au/people/buntinew" target="_blank"> Wray Buntine</a><span class="STYLE6">, Principal Researcher, NICTA</span></span></li>
+<li><span class="STYLE1" align="justify"><a href="http://mark.reid.name/" target="_blank">Mark Reid</a><span class="STYLE6">, Research Fellow, NICTA</span></span></li>
+</ul>
+
+<p class="STYLE1 STYLE9"><strong>Awards</strong>:</p>
+<ul>
+  <li class="STYLE11">ANU National ICT Australia Ltd PhD Scholarship (International Students), 2010
+</li>
+  <li class="STYLE11">Endeavour International Postgraduate Research Scholarships (IPRSs), 2011</li>    
+  <li class="STYLE11">Best Thesis Award Nomination, Universiti Sains Malaysia (USM), 2010</li>
+</ul>
+
+<p class="STYLE1 STYLE9"><strong>Job Experience</strong>:</p>
+<ul>
+  <li class="STYLE11">Software Developer, Universiti Sains Malaysia (USM), 2008-2010
+</li>
+  <li class="STYLE11">Co-founder and Technical Manager, Next Generation Solutions Co. (NEGSO), 2006-2008
+</li>    
+  <li class="STYLE11">Software Designer and Developer, South Information Technology Co. (SITCO), 2003-2006
+</li>
+</ul>
+
+<p align="justify" class="STYLE1 STYLE9">  <strong>Contact Details</strong>: </p>
+<ul>
+<li class="STYLE1">Email: ehsan <em>(dot)</em> abbasnejad@anu.edu.au</li>
+<li class="STYLE1">Work: +61 2 6267 6296</li>
+<li class="STYLE1">Mail: Locked Bag 8001, Canberra ACT 2601, Australia</li>
+</ul>
+<hr />
+<p class="STYLE1 STYLE1 STYLE1 STYLE1 STYLE1 STYLE1 STYLE1 STYLE1">&nbsp;</p>
+</body>
+</html> 
